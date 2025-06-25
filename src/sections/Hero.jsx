@@ -4,7 +4,6 @@ import HeroExperience from '../components/HeroModels/HeroExperience'
 import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import ShowcaseSection from './ShowcaseSection'
 
 const Hero = () => {
   useGSAP(() => {
@@ -39,9 +38,9 @@ const Hero = () => {
                 Shaping
                 <span className='slide'>
                   <span className='wrapper'>
-                    {words.map(word => (
+                    {words.map((word, index) => (
                       <span
-                        key={word.text}
+                        key={index}
                         className='flex items-center md:gap-3 gap-1 pb-2'
                       >
                         <img
