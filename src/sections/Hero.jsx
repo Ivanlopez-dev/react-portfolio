@@ -82,7 +82,6 @@ const Hero = () => {
       </div>
 
       <AnimatedCounter />
-      <ShowcaseSection />
     </section>
   )
 }
