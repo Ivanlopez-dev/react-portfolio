@@ -55,10 +55,7 @@ const ShowcaseSection = () => {
               <img src='/images/project1.webp' alt='Ryde' />
             </div>
             <div className='text-content'>
-              <h2>
-                Minino Malo - Ecommerce of handmade products, shopping cart and
-                admin dashboard
-              </h2>
+              <h2>Minino Malo - Ecommerce of handmade products</h2>
               <p className='text-white-50 md:text-xl'>
                 Real Production Application builded with Next.js, TypeScript and
                 TailwindCSS for a fast, user-friendly experience.
