@@ -52,16 +52,16 @@ const ShowcaseSection = () => {
 
           <div ref={project1Ref} className='first-project-wrapper'>
             <div className='image-wrapper'>
-              <img src='/images/project1.png' alt='Ryde' />
+              <img src='/images/project1.webp' alt='Ryde' />
             </div>
             <div className='text-content'>
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Minino Malo - Ecommerce of handmade products, shopping cart and
+                admin dashboard
               </h2>
               <p className='text-white-50 md:text-xl'>
-                An app built with React Native, Expo & TailwindCSS for a fast,
-                user-friendly experience.
+                Real Production Application builded with Next.js, TypeScript and
+                TailwindCSS for a fast, user-friendly experience.
               </p>
             </div>
           </div>
@@ -69,22 +69,30 @@ const ShowcaseSection = () => {
           {/* RIGHT */}
           <div className='project-list-wrapper overflow-hidden'>
             <div ref={project2Ref} className='project'>
-              <div className='image-wrapper bg-[#ffefdb]'>
+              <div className='image-wrapper bg-[#FCCCCD]'>
                 <img
-                  src='/images/project2.png'
-                  alt='Library Management Platform'
+                  src='/images/project2.webp'
+                  alt='File Driver Image project'
                 />
               </div>
 
-              <h2>Library Management Platform</h2>
+              <h2>
+                File Driver - Storage management and file sharing platform
+              </h2>
+              <p className='text-white-50 md:text-xl'>
+                Effortlessly upload, organize, and share files.
+              </p>
             </div>
 
             <div ref={project3Ref} className='project'>
-              <div className='image-wrapper bg-[#ffe7eb]'>
-                <img src='/images/project3.png' alt='YC Directory' />
+              <div className='image-wrapper bg-[#A1BFF3]'>
+                <img src='/images/project3.webp' alt='YC Directory' />
               </div>
 
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Travely Agency - Travel dashboard</h2>
+              <p className='text-white-50 md:text-xl'>
+                Create and find unique, customizable, AI-generated trips.
+              </p>
             </div>
           </div>
         </div>
