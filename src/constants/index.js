@@ -1,11 +1,11 @@
 const navLinks = [
   {
-    name: 'Work',
-    link: '#work'
-  },
-  {
     name: 'Experience',
     link: '#experience'
+  },
+  {
+    name: 'Projects',
+    link: '#projects'
   },
   {
     name: 'Skills',
@@ -30,7 +30,8 @@ const words = [
 
 const counterItems = [
   { value: 2, suffix: '+', label: 'Years of Experience' },
-  { value: 24, suffix: '+', label: 'Completed Projects' }
+  { value: 24, suffix: '+', label: 'Completed Projects' },
+  { value: 100, suffix: '%', label: 'Apps tested & reviewed' }
 ]
 
 const logoIconsList = [
@@ -149,7 +150,7 @@ const expCards = [
       "Ivan's work to Burger King's restaurant have been outstanding. He started working at the bar, taking orders and taking charge of the dining room and he ended up preparing the orders in the kitchen and teaching the new employees.",
     imgPath: '/images/logo2.webp',
     logoPath: '/images/logo2.webp',
-    title: 'Waiter and Cook positions',
+    title: 'Waiter and Cook',
     date: 'March 2018 - August 2022',
     responsibilities: [
       'Started attending the bar, taking and preparing orders to clients.',
