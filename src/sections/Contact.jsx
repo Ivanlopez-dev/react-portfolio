@@ -1,13 +1,19 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
+
 import TitleHeader from '../components/TitleHeader'
 import ContactExperience from '../components/Models/contact/ContactExperience'
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false)
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   })
+
+  const formRef = useRef(null)
 
   const handleChange = e => {
     const { name, value } = e.target
@@ -17,18 +23,36 @@ const Contact = () => {
     })
   }
 
-  const handleSubmit = e => {
+  const handleSubmit = async e => {
     e.preventDefault()
+
     // Handle form submission logic
-    console.log('Form submitted:', formData)
-    // Reset form after submission
-    setFormData({ name: '', email: '', message: '' })
+    setLoading(true)
+
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      )
+
+      // Reset form after submission
+      setFormData({ name: '', email: '', message: '' })
+    } catch (error) {
+      console.error('Emailjs error:', error)
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
     <section id='contact' className='flex-center section-padding'>
       <div className='w-full h-full md:px-10 px-5'>
-        <TitleHeader title='Get In Touch' sub='📪 Contact Information' />
+        <TitleHeader
+          title="Get In Touch - Let's Connect"
+          sub="🤔 Have questions? Let's talk! 🚀"
+        />
 
         <div className='mt-16 grid-12-cols'>
           {/* Contact Form - Left side */}
@@ -36,6 +60,7 @@ const Contact = () => {
             <div className='flex-center card-border rounded-xl p-10'>
               <form
                 onSubmit={handleSubmit}
+                ref={formRef}
                 className='w-full flex flex-col gap-7'
               >
                 <div>
@@ -44,7 +69,7 @@ const Contact = () => {
                     type='text'
                     id='name'
                     name='name'
-                    placeholder='Jhon Doey'
+                    placeholder='John Doey'
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -57,7 +82,7 @@ const Contact = () => {
                     type='email'
                     id='email'
                     name='email'
-                    placeholder='jhondoey@example.com'
+                    placeholder='johndoey@example.com'
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -77,10 +102,12 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <button type='submit'>
+                <button type='submit' disabled={loading}>
                   <div className='cta-button group'>
                     <div className='bg-circle' />
-                    <p className='text'>Send Message</p>
+                    <p className='text'>
+                      {loading ? 'Sending...✨' : 'Send Message'}
+                    </p>
                     <div className='arrow-wrapper'>
                       <img src='/images/arrow-down.svg' alt='Arrow icon' />
                     </div>
