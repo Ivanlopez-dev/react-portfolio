@@ -91,57 +91,44 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: 'React Developer',
-    imgPath: '/images/logos/react.png'
+    name: 'HTML',
+    imgPath: '/images/logos/html5.svg'
   },
   {
-    name: 'Python Developer',
-    imgPath: '/images/logos/python.svg'
+    name: 'CSS',
+    imgPath: '/images/logos/css.svg'
   },
   {
-    name: 'Backend Developer',
+    name: 'JavaScript',
+    imgPath: '/images/logos/javascript.svg'
+  },
+  {
+    name: 'Nodejs',
     imgPath: '/images/logos/node.png'
   },
   {
-    name: 'Interactive Developer',
-    imgPath: '/images/logos/three.png'
-  },
-  {
-    name: 'Project Manager',
+    name: 'Git',
     imgPath: '/images/logos/git.svg'
-  }
-]
-
-const techStackIcons = [
-  {
-    name: 'React Developer',
-    modelPath: '/models/react_logo-transformed.glb',
-    scale: 1,
-    rotation: [0, 0, 0]
   },
   {
-    name: 'Python Developer',
-    modelPath: '/models/python-transformed.glb',
-    scale: 0.8,
-    rotation: [0, 0, 0]
+    name: 'React',
+    imgPath: '/images/logos/react.png'
   },
   {
-    name: 'Backend Developer',
-    modelPath: '/models/node-transformed.glb',
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0]
+    name: 'Nextjs',
+    imgPath: '/images/logos/nextjslogo.svg'
   },
   {
-    name: 'Interactive Developer',
-    modelPath: '/models/three.js-transformed.glb',
-    scale: 0.05,
-    rotation: [0, 0, 0]
+    name: 'PostgreSQL',
+    imgPath: '/images/logos/postgresql.svg'
   },
   {
-    name: 'Project Manager',
-    modelPath: '/models/git-svg-transformed.glb',
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0]
+    name: 'MySQL',
+    imgPath: '/images/logos/mysql.svg'
+  },
+  {
+    name: 'TailwindCSS',
+    imgPath: '/images/logos/tailwindcss.svg'
   }
 ]
 
@@ -150,20 +137,20 @@ const expCards = [
     review:
       'Ivan brought value and technical expertise to the team, significantly improving the performance of our Technical IT Support team.',
     imgPath: '/images/exp1.svg',
-    logoPath: '/images/logo1.png',
+    logoPath: '/images/logo1.svg',
     title: 'Jr Full-Stack Developer',
     date: 'September 2022 - April 2024',
     responsibilities: [
-      'As the person in charge of the technical support system, I review errors and handle contact with customer.',
-      'Fix reported bugs if they are in my hand, Jira tasks management, GitHub releases and versioning.',
-      'Support Developers with basic tasks, create technical documentation, testing, API endpoints.'
+      'In charge of the technical support system, review errors and handle contact with customers.',
+      'Debug, test and fix reported bugs if they are in my hand, Jira task management, GitHub releases and versioning.',
+      'Used to create technical Documentation, API Restfull, Agile.'
     ]
   },
   {
     review:
       "Ivan's work to Burger King's restaurant have been outstanding. He started working at the bar, taking orders and taking charge of the dining room. He continued with different responsibilities, such as opening and closing the restaurant. And he ended up preparing the orders in the kitchen and teaching the new employees.",
-    imgPath: '/images/exp2.webp',
-    logoPath: '/images/exp2.webp',
+    imgPath: '/images/logo2.webp',
+    logoPath: '/images/logo2.webp',
     title: 'Waiter and Cook positions',
     date: 'March 2018 - August 2022',
     responsibilities: [
@@ -171,30 +158,17 @@ const expCards = [
       'Managing restaurant openings and closings.',
       'Prepare kitchen orders and train new employees.'
     ]
-  },
-  {
-    review:
-      'Ivan´s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.',
-    imgPath: '/images/exp3.png',
-    logoPath: '/images/logo3.png',
-    title: 'React Native Developer',
-    date: 'March 2016 - February 2018',
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      'Improved app performance and user experience through code optimization and testing.',
-      'Coordinated with the product team to implement features based on feedback.'
-    ]
   }
 ]
 
 const expLogos = [
   {
-    name: 'logo1',
-    imgPath: '/images/logo1.png'
+    name: 'Deliverea',
+    imgPath: '/images/logo1.svg'
   },
   {
-    name: 'logo2',
-    imgPath: '/images/exp2.webp'
+    name: 'Burger King',
+    imgPath: '/images/logo2.webp'
   },
   {
     name: 'logo3',
@@ -279,7 +253,6 @@ export {
   expLogos,
   testimonials,
   socialImgs,
-  techStackIcons,
   techStackImgs,
   navLinks
 }
