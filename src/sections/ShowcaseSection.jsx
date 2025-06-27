@@ -52,7 +52,10 @@ const ShowcaseSection = () => {
 
           <div ref={project1Ref} className='first-project-wrapper'>
             <div className='image-wrapper'>
-              <img src='/images/project1.webp' alt='Ryde' />
+              <img
+                src='/images/project1.webp'
+                alt='Minino Malo project Image'
+              />
             </div>
             <div className='text-content'>
               <h2>Minino Malo - Ecommerce of handmade products</h2>
@@ -83,7 +86,7 @@ const ShowcaseSection = () => {
 
             <div ref={project3Ref} className='project'>
               <div className='image-wrapper bg-[#A1BFF3]'>
-                <img src='/images/project3.webp' alt='YC Directory' />
+                <img src='/images/project3.webp' alt='Travely project Image' />
               </div>
 
               <h2>Travely - Travel Agency dashboard</h2>
