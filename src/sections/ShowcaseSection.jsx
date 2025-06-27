@@ -86,7 +86,7 @@ const ShowcaseSection = () => {
                 <img src='/images/project3.webp' alt='YC Directory' />
               </div>
 
-              <h2>Travely Agency - Travel dashboard</h2>
+              <h2>Travely - Travel Agency dashboard</h2>
               <p className='text-white-50 md:text-xl'>
                 Create and find unique, customizable, AI-generated trips.
               </p>
