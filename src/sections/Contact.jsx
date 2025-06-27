@@ -54,7 +54,7 @@ const Contact = () => {
           sub="🤔 Have questions? Let's talk! 🚀"
         />
 
-        <div className='mt-16 grid-12-cols'>
+        <div className='mt-32 grid-12-cols'>
           {/* Contact Form - Left side */}
           <div className='xl:col-span-5'>
             <div className='flex-center card-border rounded-xl p-10'>

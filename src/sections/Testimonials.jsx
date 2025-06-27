@@ -11,7 +11,7 @@ const Testimonials = () => {
           sub='⭐ Colleagues Feedback Highlights'
         />
 
-        <div className='lg:columns-3 md:columns-2 columns-1 mt-16'>
+        <div className='lg:columns-3 md:columns-2 columns-1 mt-32'>
           {testimonials.map(({ imgPath, name, mentions, review }, index) => (
             <GlowCard card={{ review }} key={index} index={index}>
               <div className='flex items-center gap-3'>
