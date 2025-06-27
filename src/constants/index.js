@@ -148,7 +148,7 @@ const expCards = [
   },
   {
     review:
-      "Ivan's work to Burger King's restaurant have been outstanding. He started working at the bar, taking orders and taking charge of the dining room. He continued with different responsibilities, such as opening and closing the restaurant. And he ended up preparing the orders in the kitchen and teaching the new employees.",
+      "Ivan's work to Burger King's restaurant have been outstanding. He started working at the bar, taking orders and taking charge of the dining room and he ended up preparing the orders in the kitchen and teaching the new employees.",
     imgPath: '/images/logo2.webp',
     logoPath: '/images/logo2.webp',
     title: 'Waiter and Cook positions',
