@@ -64,6 +64,34 @@ const ShowcaseSection = () => {
                   alt='Minino Malo project Image'
                 />
               </div>
+
+              <div className='flex mt-4'>
+                <span class='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                  <img
+                    src='/../../images/logos/typescript.svg'
+                    alt='Nextjs logo image'
+                    className='size-3 me-1.5'
+                  />
+                  TypeScript
+                </span>
+                <span class='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                  <img
+                    src='/../../images/logos/nextjslogo.svg'
+                    alt='Nextjs logo image'
+                    className='size-4 me-1.5'
+                  />
+                  Nextjs
+                </span>
+                <span class='bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-gray-300 border border-gray-500'>
+                  <img
+                    src='/../../images/logos/tailwindcss.svg'
+                    alt='Nextjs logo image'
+                    className='size-4 me-1.5'
+                  />
+                  TailwindCSS
+                </span>
+              </div>
+
               <div className='text-content'>
                 <h2>Minino Malo - Ecommerce of handmade products</h2>
                 <p className='text-white-50 md:text-xl'>
@@ -83,10 +111,37 @@ const ShowcaseSection = () => {
                   />
                 </div>
 
+                <div className='flex mt-4'>
+                  <span class='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                    <img
+                      src='/../../images/logos/typescript.svg'
+                      alt='Nextjs logo image'
+                      className='size-3 me-1.5'
+                    />
+                    TypeScript
+                  </span>
+                  <span class='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                    <img
+                      src='/../../images/logos/nextjslogo.svg'
+                      alt='Nextjs logo image'
+                      className='size-4 me-1.5'
+                    />
+                    Nextjs
+                  </span>
+                  <span class='bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-gray-300 border border-gray-500'>
+                    <img
+                      src='/../../images/logos/tailwindcss.svg'
+                      alt='Nextjs logo image'
+                      className='size-4 me-1.5'
+                    />
+                    TailwindCSS
+                  </span>
+                </div>
+
                 <h2>
                   File Driver - Storage management and file sharing platform
                 </h2>
-                <p className='text-white-50 md:text-xl'>
+                <p className='text-white-50 md:text-xl mt-4'>
                   Effortlessly upload, organize, and share files.
                 </p>
               </div>
@@ -99,8 +154,43 @@ const ShowcaseSection = () => {
                   />
                 </div>
 
+                <div className='flex mt-4'>
+                  <span class='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                    <img
+                      src='/../../images/logos/typescript.svg'
+                      alt='Nextjs logo image'
+                      className='size-3 me-1.5'
+                    />
+                    TypeScript
+                  </span>
+                  <span class='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                    <img
+                      src='/../../images/logos/reactrouter.svg'
+                      alt='React logo image'
+                      className='size-4 me-1.5'
+                    />
+                    React Router v7
+                  </span>
+                  <span class='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                    <img
+                      src='/../../images/logos/gemini.svg'
+                      alt='Gemini logo image'
+                      className='size-4 me-1.5'
+                    />
+                    Gemini AI
+                  </span>
+                  <span class='bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-gray-300 border border-gray-500'>
+                    <img
+                      src='/../../images/logos/tailwindcss.svg'
+                      alt='Nextjs logo image'
+                      className='size-4 me-1.5'
+                    />
+                    TailwindCSS
+                  </span>
+                </div>
+
                 <h2>Travely - Travel Agency dashboard</h2>
-                <p className='text-white-50 md:text-xl'>
+                <p className='text-white-50 md:text-xl mt-4'>
                   Create and find unique, customizable, AI-generated trips.
                 </p>
               </div>
