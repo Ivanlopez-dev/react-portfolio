@@ -66,7 +66,7 @@ const ShowcaseSection = () => {
               </div>
 
               <div className='flex mt-4'>
-                <span className='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                <span className='badges'>
                   <img
                     src='/../../images/logos/typescript.svg'
                     alt='TypeScript logo image'
@@ -74,7 +74,7 @@ const ShowcaseSection = () => {
                   />
                   TypeScript
                 </span>
-                <span className='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                <span className='badges'>
                   <img
                     src='/../../images/logos/nextjslogo.svg'
                     alt='Nextjs logo image'
@@ -82,7 +82,7 @@ const ShowcaseSection = () => {
                   />
                   Nextjs
                 </span>
-                <span className='bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-gray-300 border border-gray-500'>
+                <span className='badges'>
                   <img
                     src='/../../images/logos/tailwindcss.svg'
                     alt='TailwindCSS logo image'
@@ -126,7 +126,7 @@ const ShowcaseSection = () => {
                 </div>
 
                 <div className='flex mt-4'>
-                  <span className='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                  <span className='badges'>
                     <img
                       src='/../../images/logos/typescript.svg'
                       alt='TypeScript logo image'
@@ -134,7 +134,7 @@ const ShowcaseSection = () => {
                     />
                     TypeScript
                   </span>
-                  <span className='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                  <span className='badges'>
                     <img
                       src='/../../images/logos/nextjslogo.svg'
                       alt='Nextjs logo image'
@@ -191,7 +191,7 @@ const ShowcaseSection = () => {
                 </div>
 
                 <div className='flex mt-4'>
-                  <span className='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                  <span className='badges'>
                     <img
                       src='/../../images/logos/typescript.svg'
                       alt='TypeScript logo image'
@@ -199,7 +199,7 @@ const ShowcaseSection = () => {
                     />
                     TypeScript
                   </span>
-                  <span className='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                  <span className='badges'>
                     <img
                       src='/../../images/logos/reactrouter.svg'
                       alt='React Router logo image'
@@ -207,7 +207,7 @@ const ShowcaseSection = () => {
                     />
                     R. Router v7
                   </span>
-                  <span className='bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500 '>
+                  <span className='badges'>
                     <img
                       src='/../../images/logos/gemini.svg'
                       alt='Gemini logo image'
