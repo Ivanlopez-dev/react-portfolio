@@ -215,14 +215,14 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: 'github',
-    url: 'https://github.com/Ivanlopez-dev',
-    imgPath: '/images/github.png'
-  },
-  {
     name: 'linkedin',
     url: 'https://www.linkedin.com/in/ivan-lopez-dev/',
     imgPath: '/images/linkedin.png'
+  },
+  {
+    name: 'github',
+    url: 'https://github.com/Ivanlopez-dev',
+    imgPath: '/images/github.png'
   }
 ]
 
