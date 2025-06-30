@@ -92,11 +92,25 @@ const ShowcaseSection = () => {
                 </span>
               </div>
 
+              <div className='inner flex mt-2 gap-2.5'>
+                <a
+                  href='https://mininomalo.com/'
+                  target='_blank'
+                  className='contact-btn group'
+                >
+                  <div className='inner flex '>
+                    <span>Visit Website</span>
+                  </div>
+                </a>
+              </div>
+
               <div className='text-content'>
                 <h2>Minino Malo - Ecommerce of handmade products</h2>
                 <p className='text-white-50 md:text-xl'>
-                  Real Production Application builded with Next.js, TypeScript
-                  and TailwindCSS for a fast, user-friendly experience.
+                  It's a complete Full-Stack Application with Shopping Cart,
+                  Payment gateway, and Admin panel. It has full CRUD with Authjs
+                  and Neondb as the database, Zustand for State management, and
+                  Cloudinary as the image API.
                 </p>
               </div>
             </div>
@@ -136,6 +150,28 @@ const ShowcaseSection = () => {
                     />
                     TailwindCSS
                   </span>
+                </div>
+
+                <div className='inner flex mt-2 gap-2.5'>
+                  <a
+                    href='https://filedriver.vercel.app/'
+                    target='_blank'
+                    className='contact-btn group'
+                  >
+                    <div className='inner flex '>
+                      <span>Visit Website</span>
+                    </div>
+                  </a>
+
+                  <a
+                    href='https://github.com/Ivanlopez-dev/file-driver'
+                    target='_blank'
+                    className='contact-btn group'
+                  >
+                    <div className='inner flex '>
+                      <span>Project Code</span>
+                    </div>
+                  </a>
                 </div>
 
                 <h2>
@@ -179,6 +215,28 @@ const ShowcaseSection = () => {
                     />
                     Gemini AI
                   </span>
+                </div>
+
+                <div className='inner flex mt-2 gap-2.5'>
+                  <a
+                    href='https://travely-agency.vercel.app/dashboard'
+                    target='_blank'
+                    className='contact-btn group'
+                  >
+                    <div className='inner flex '>
+                      <span>Visit Website</span>
+                    </div>
+                  </a>
+
+                  <a
+                    href='https://github.com/Ivanlopez-dev/travely'
+                    target='_blank'
+                    className='contact-btn group'
+                  >
+                    <div className='inner flex '>
+                      <span>Project Code</span>
+                    </div>
+                  </a>
                 </div>
 
                 <h2>Travely - Travel Agency dashboard</h2>
