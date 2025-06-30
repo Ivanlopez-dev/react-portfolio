@@ -311,18 +311,18 @@ section {
     p {
       @apply text-center md:text-start;
     }
+  }
+}
 
-    .socials {
-      @apply flex items-center justify-center gap-5;
+.socials {
+  @apply flex items-center justify-center gap-5;
 
-      .icon {
-        @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl px-2 py-2 size-10 cursor-pointer transition-all duration-300 hover:bg-black-50 hover:scale-110;
-      }
+  .icon {
+    @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl px-2 py-2 size-10 cursor-pointer transition-all duration-300 hover:bg-black-50 hover:scale-110;
+  }
 
-      img {
-        @apply inline-block;
-      }
-    }
+  img {
+    @apply inline-block;
   }
 }
 
@@ -342,27 +342,35 @@ section {
 @keyframes wordSlider {
   0% {
     transform: translateY(0.5%);
+    color: #ffbe0b;
   }
   12.5% {
     transform: translateY(-12.5%);
+    color: #fb5607;
   }
   25% {
     transform: translateY(-25%);
+    color: #ff006e;
   }
   37.5% {
     transform: translateY(-37.5%);
+    color: #8338ec;
   }
   50% {
     transform: translateY(-50%);
+    color: #ffbe0b;
   }
   62.5% {
     transform: translateY(-62.5%);
+    color: #fb5607;
   }
   75% {
     transform: translateY(-75%);
+    color: #ff006e;
   }
   87.5% {
     transform: translateY(-87.5%);
+    color: #8338ec;
   }
 }
 
