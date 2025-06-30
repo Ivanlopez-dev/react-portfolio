@@ -81,7 +81,7 @@ section {
   }
 
   .badges {
-    @apply bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md me-2 dark:bg-gray-700 dark:text-gray-300 border border-gray-500;
+    @apply bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-3 py-1 rounded-md me-2 dark:bg-[#282732] dark:text-gray-300 border border-transparent;
   }
 
   .hero-layout {

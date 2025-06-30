@@ -142,7 +142,7 @@ const ShowcaseSection = () => {
                     />
                     Nextjs
                   </span>
-                  <span className='bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-gray-300 border border-gray-500'>
+                  <span className='badges'>
                     <img
                       src='/../../images/logos/tailwindcss.svg'
                       alt='TailwindCSS logo image'
