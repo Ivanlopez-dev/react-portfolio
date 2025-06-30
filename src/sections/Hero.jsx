@@ -1,7 +1,7 @@
 import AnimatedCounter from '../components/AnimatedCounter'
 import Button from '../components/Button'
 import HeroExperience from '../components/HeroModels/HeroExperience'
-import { words } from '../constants'
+import { socialImgs, words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
@@ -31,7 +31,26 @@ const Hero = () => {
 
       <div className='hero-layout'>
         {/* LEFT: HERO CONTENT */}
-        <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
+        <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5 gap-10'>
+          <div className='flex flex-col'>
+            <img
+              src='https://avatars.githubusercontent.com/u/6099886?v=4'
+              alt='Ivan Lopez avatar image'
+              className='size-20 md:size-30 lg:size-40 rounded-xl mb-3'
+            />
+            <div className='flex gap-4'>
+              {socialImgs.map(img => (
+                <a
+                  href={img.url}
+                  target='_blank'
+                  key={img.url}
+                  className='flex icon size-7 transition-all duration-300 hover:scale-110'
+                >
+                  <img src={img.imgPath} />
+                </a>
+              ))}
+            </div>
+          </div>
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
@@ -60,7 +79,7 @@ const Hero = () => {
             </div>
 
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-              Hi, I'm Ivan, a Developer based in Lugo-Spain with a passion for
+              Hello! I'm Ivan, a Developer based in Spain with a passion for
               code.
             </p>
 
