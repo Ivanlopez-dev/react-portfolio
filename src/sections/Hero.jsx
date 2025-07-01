@@ -36,7 +36,7 @@ const Hero = () => {
             <img
               src='https://avatars.githubusercontent.com/u/6099886?v=4'
               alt='Ivan Lopez avatar image'
-              className='size-20 md:size-30 lg:size-40 rounded-xl mb-3'
+              className='size-20 md:size-30 lg:size-50 rounded-lg mb-3'
             />
             <div className='flex gap-4'>
               {socialImgs.map(img => (
@@ -44,7 +44,7 @@ const Hero = () => {
                   href={img.url}
                   target='_blank'
                   key={img.url}
-                  className='flex icon size-7 transition-all duration-300 hover:scale-110'
+                  className='flex icon size-6 transition-all duration-300 hover:scale-115'
                 >
                   <img src={img.imgPath} />
                 </a>
