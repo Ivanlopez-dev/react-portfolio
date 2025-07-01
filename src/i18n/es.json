@@ -53,5 +53,6 @@
   "contact.form.label.message": "Mensaje",
   "contact.form.placeholder.message": "Hola, Iván! 👋🏼. ¿Cómo va el día?",
   "contact.form.button.loading": "Enviando...✨",
-  "contact.form.button.send": "Enviar Mensaje"
+  "contact.form.button.send": "Enviar Mensaje",
+  "footer.developedby": "Desarrollado con 💖 por Iván L.R."
 }

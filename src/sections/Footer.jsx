@@ -1,6 +1,9 @@
+import { useIntl } from 'react-intl'
 import { socialImgs } from '../constants'
 
 const Footer = () => {
+  const intl = useIntl()
+
   return (
     <footer className='footer'>
       <div className='footer-container'>
@@ -18,7 +21,8 @@ const Footer = () => {
 
         <div className='flex flex-col justify-center'>
           <p className='text-center md:text-end'>
-            {new Date().getFullYear()} - Developed with 💖 Iván LR
+            {new Date().getFullYear()} -{' '}
+            {intl.formatMessage({ id: 'footer.developedby' })}
           </p>
         </div>
       </div>
