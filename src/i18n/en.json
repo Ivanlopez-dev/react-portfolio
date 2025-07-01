@@ -46,5 +46,12 @@
   "ability2.title": "Reliable Communication",
   "ability2.desc": "Keeping you updated at every step to ensure transparency and clarity.",
   "ability3.title": "On-Time Delivery",
-  "ability3.desc": "Making sure projects are completed on schedule, with quality & attention to detail."
+  "ability3.desc": "Making sure projects are completed on schedule, with quality & attention to detail.",
+  "contact.title": "Get In Touch - Let's Connect",
+  "contact.sub": "🤔 Have questions? Let's talk! 🚀",
+  "contact.form.label.name": "Name",
+  "contact.form.label.message": "Message",
+  "contact.form.placeholder.message": "Hello, Ivan! 👋🏼. How's your day going?",
+  "contact.form.button.loading": "Sending...✨",
+  "contact.form.button.send": "Send Message"
 }

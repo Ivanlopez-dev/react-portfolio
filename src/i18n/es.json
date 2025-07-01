@@ -46,5 +46,12 @@
   "ability2.title": "Comunicación Transparente",
   "ability2.desc": "Transparencia y claridad en cuanto al progreso y resultado.",
   "ability3.title": "Entregas a tiempo",
-  "ability3.desc": "Los proyectos se llevan a cabo en el plazo previsto, con calidad y atención al detalle."
+  "ability3.desc": "Los proyectos se llevan a cabo en el plazo previsto, con calidad y atención al detalle.",
+  "contact.title": "Contacto",
+  "contact.sub": "🤔 ¿Tienes alguna pregunta? ¡Hablemos! 🚀",
+  "contact.form.label.name": "Nombre",
+  "contact.form.label.message": "Mensaje",
+  "contact.form.placeholder.message": "Hola, Iván! 👋🏼. ¿Cómo va el día?",
+  "contact.form.button.loading": "Enviando...✨",
+  "contact.form.button.send": "Enviar Mensaje"
 }

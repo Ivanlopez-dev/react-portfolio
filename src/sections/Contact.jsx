@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { useIntl } from 'react-intl'
 
 import TitleHeader from '../components/TitleHeader'
 import ContactExperience from '../components/Models/contact/ContactExperience'
@@ -14,6 +15,7 @@ const Contact = () => {
   })
 
   const formRef = useRef(null)
+  const intl = useIntl()
 
   const handleChange = e => {
     const { name, value } = e.target
@@ -50,8 +52,8 @@ const Contact = () => {
     <section id='contact' className='flex-center section-padding'>
       <div className='w-full h-full md:px-10 px-5'>
         <TitleHeader
-          title="Get In Touch - Let's Connect"
-          sub="🤔 Have questions? Let's talk! 🚀"
+          title={intl.formatMessage({ id: 'contact.title' })}
+          sub={intl.formatMessage({ id: 'contact.sub' })}
         />
 
         <div className='mt-32 grid-12-cols'>
@@ -64,7 +66,11 @@ const Contact = () => {
                 className='w-full flex flex-col gap-7'
               >
                 <div>
-                  <label htmlFor='name'>Name</label>
+                  <label htmlFor='name'>
+                    {intl.formatMessage({
+                      id: 'contact.form.label.name'
+                    })}
+                  </label>
                   <input
                     type='text'
                     id='name'
@@ -90,12 +96,18 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor='message'>Message</label>
+                  <label htmlFor='message'>
+                    {intl.formatMessage({
+                      id: 'contact.form.label.message'
+                    })}
+                  </label>
                   <textarea
                     id='message'
                     name='message'
                     rows='5'
-                    placeholder='Hello, Ivan! 👋🏼 How is your day going?'
+                    placeholder={intl.formatMessage({
+                      id: 'contact.form.placeholder.message'
+                    })}
                     value={formData.message}
                     onChange={handleChange}
                     required
@@ -106,7 +118,11 @@ const Contact = () => {
                   <div className='cta-button group'>
                     <div className='bg-circle' />
                     <p className='text'>
-                      {loading ? 'Sending...✨' : 'Send Message'}
+                      {intl.formatMessage({
+                        id: loading
+                          ? 'contact.form.button.loading'
+                          : 'contact.form.button.send'
+                      })}
                     </p>
                     <div className='arrow-wrapper'>
                       <img src='/images/arrow-down.svg' alt='Arrow icon' />
