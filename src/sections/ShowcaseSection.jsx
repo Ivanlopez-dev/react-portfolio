@@ -1,7 +1,9 @@
-import { useRef } from 'react'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useGSAP } from '@gsap/react'
+import { useIntl } from 'react-intl'
+import { useRef } from 'react'
+import gsap from 'gsap'
+
 import TitleHeader from '../components/TitleHeader'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -11,6 +13,8 @@ const ShowcaseSection = () => {
   const project1Ref = useRef(null)
   const project2Ref = useRef(null)
   const project3Ref = useRef(null)
+
+  const intl = useIntl()
 
   useGSAP(() => {
     const projects = [
@@ -52,7 +56,10 @@ const ShowcaseSection = () => {
       className='app-showcase flex-center section-padding xl:px-0'
     >
       <div className='w-full h-full md:px-20 px-5'>
-        <TitleHeader title='Featured Projects' sub='🛠️ Check my expertise!' />
+        <TitleHeader
+          title={intl.formatMessage({ id: 'showcase.title' })}
+          sub={intl.formatMessage({ id: 'showcase.sub' })}
+        />
         <div className='w-full mt-32'>
           <div className='showcaselayout'>
             {/* LEFT */}
@@ -99,18 +106,17 @@ const ShowcaseSection = () => {
                   className='contact-btn group'
                 >
                   <div className='inner flex '>
-                    <span>Visit Website</span>
+                    <span>
+                      {intl.formatMessage({ id: 'showcase.websitelink' })}
+                    </span>
                   </div>
                 </a>
               </div>
 
               <div className='text-content'>
-                <h2>Minino Malo - Ecommerce of handmade products</h2>
+                <h2>{intl.formatMessage({ id: 'showcase.project1.title' })}</h2>
                 <p className='text-white-50 md:text-xl'>
-                  It's a complete Full-Stack Application with Shopping Cart,
-                  Payment gateway, and Admin panel. It has full CRUD with Authjs
-                  and Neondb as the database, Zustand for State management, and
-                  Cloudinary as the image API.
+                  {intl.formatMessage({ id: 'showcase.project1.desc' })}
                 </p>
               </div>
             </div>
@@ -159,7 +165,9 @@ const ShowcaseSection = () => {
                     className='contact-btn group'
                   >
                     <div className='inner flex '>
-                      <span>Visit Website</span>
+                      <span>
+                        {intl.formatMessage({ id: 'showcase.websitelink' })}
+                      </span>
                     </div>
                   </a>
 
@@ -169,16 +177,16 @@ const ShowcaseSection = () => {
                     className='contact-btn group'
                   >
                     <div className='inner flex '>
-                      <span>Project Code</span>
+                      <span>
+                        {intl.formatMessage({ id: 'showcase.githublink' })}
+                      </span>
                     </div>
                   </a>
                 </div>
 
-                <h2>
-                  File Driver - Storage management and file sharing platform
-                </h2>
+                <h2>{intl.formatMessage({ id: 'showcase.project2.title' })}</h2>
                 <p className='text-white-50 md:text-xl mt-4'>
-                  Effortlessly upload, organize, and share files.
+                  {intl.formatMessage({ id: 'showcase.project2.desc' })}
                 </p>
               </div>
 
@@ -224,7 +232,9 @@ const ShowcaseSection = () => {
                     className='contact-btn group'
                   >
                     <div className='inner flex '>
-                      <span>Visit Website</span>
+                      <span>
+                        {intl.formatMessage({ id: 'showcase.websitelink' })}
+                      </span>
                     </div>
                   </a>
 
@@ -234,14 +244,16 @@ const ShowcaseSection = () => {
                     className='contact-btn group'
                   >
                     <div className='inner flex '>
-                      <span>Project Code</span>
+                      <span>
+                        {intl.formatMessage({ id: 'showcase.githublink' })}
+                      </span>
                     </div>
                   </a>
                 </div>
 
-                <h2>Travely - Travel Agency dashboard</h2>
+                <h2>{intl.formatMessage({ id: 'showcase.project3.title' })}</h2>
                 <p className='text-white-50 md:text-xl mt-4'>
-                  Create and find unique, customizable, AI-generated trips.
+                  {intl.formatMessage({ id: 'showcase.project3.desc' })}
                 </p>
               </div>
             </div>

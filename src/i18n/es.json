@@ -30,5 +30,15 @@
   "experience.card2.review": "Estamos orgullosos del trabajo de Iván. Empezó en la barra, tomando pedidos, encargándose del comedor. Y acabó preparando pedidos en cocina y enseñando a los nuevos empleados.",
   "experience.card2.responsibility1": "Atender en barra y preparar pedidos que llegan de Cocina",
   "experience.card2.responsibility2": "Turnos de Apertura y Cierre del local",
-  "experience.card2.responsibility3": "Preparar pedidos de Cocina y formar a nuevos empleados en distintas posiciones."
+  "experience.card2.responsibility3": "Preparar pedidos de Cocina y formar a nuevos empleados en distintas posiciones.",
+  "showcase.title": "Proyectos Destacados",
+  "showcase.sub": "🛠️ Puedes revisar el código y sitio web de estos tres",
+  "showcase.websitelink": "Página Web",
+  "showcase.githublink": "Código",
+  "showcase.project1.title": "Minino Malo - Ecommerce de Productos Artesanales",
+  "showcase.project1.desc": "Tienda on-line, Full-Stack Web App completa, el proyecto final de Bootcamp y también mi 'Negocio familiar'. Features: Pasarela de Pago, Panel de Administración, CRUD de usuarios completo, Authjs, Neondb como base de datos, Zustand para manejo de Estados, y Cloudinary API para administrar imágenes.",
+  "showcase.project2.title": "File Driver - Plataforma para Gestionar, Almacenar y Compartir archivos",
+  "showcase.project2.desc": "Carga, organiza y comparte archivos rapidísimo. Inspirado por gigantes como Google Drive y One Drive!",
+  "showcase.project3.title": "Travely - Panel de Administración para Agencias de viaje",
+  "showcase.project3.desc": "Crea y encuentra viajes e itinerarios únicos, personalizables y generados por Gemini IA."
 }
