@@ -84,7 +84,6 @@ const Hero = () => {
                 </span>
               </h1>
               <h1>{intl.formatMessage({ id: 'hero.title.projects' })}</h1>
-              <h1>{intl.formatMessage({ id: 'hero.title.results' })}</h1>
             </div>
 
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>

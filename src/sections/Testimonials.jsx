@@ -1,14 +1,17 @@
 import { testimonials } from '../constants'
 import GlowCard from '../components/GlowCard'
 import TitleHeader from '../components/TitleHeader'
+import { useIntl } from 'react-intl'
 
 const Testimonials = () => {
+  const intl = useIntl()
+
   return (
     <section id='testimonials' className='flex-center section-padding'>
       <div className='w-full h-full md:px-10 px-5'>
         <TitleHeader
-          title='What People Say About Me?'
-          sub='⭐ Colleagues Feedback Highlights'
+          title={intl.formatMessage({ id: 'testimonials.title' })}
+          sub={intl.formatMessage({ id: 'testimonials.sub' })}
         />
 
         <div className='lg:columns-3 md:columns-2 columns-1 mt-32'>
