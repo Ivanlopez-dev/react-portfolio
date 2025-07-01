@@ -130,29 +130,27 @@ const techStackImgs = [
 
 const expCards = [
   {
-    review:
-      'Ivan brought value and technical expertise to the team, significantly improving the performance of our Technical IT Support team.',
+    reviewId: 'experience.card1.review',
     imgPath: '/images/exp1.svg',
     logoPath: '/images/logo1.svg',
-    title: 'Jr Full-Stack Developer',
-    date: 'September 2022 - April 2024',
-    responsibilities: [
-      'In charge of the technical support system, review errors and handle contact with customers.',
-      'Debug, test and fix reported bugs if they are in my hand, Jira task management, GitHub releases and versioning.',
-      'Used to create technical Documentation, API Restfull, Agile.'
+    titleId: 'experience.card1.title',
+    dateId: 'experience.card1.date',
+    responsibilitiesIds: [
+      'experience.card1.responsibility1',
+      'experience.card1.responsibility2',
+      'experience.card1.responsibility3'
     ]
   },
   {
-    review:
-      "Ivan's work to Burger King's restaurant have been outstanding. He started working at the bar, taking orders and taking charge of the dining room and he ended up preparing the orders in the kitchen and teaching the new employees.",
+    reviewId: 'experience.card2.review',
     imgPath: '/images/logo2.webp',
     logoPath: '/images/logo2.webp',
-    title: 'Waiter and Cook',
-    date: 'March 2018 - August 2022',
-    responsibilities: [
-      'Started attending the bar, taking and preparing orders to clients.',
-      'Managing restaurant openings and closings.',
-      'Prepare kitchen orders and train new employees.'
+    titleId: 'experience.card2.title',
+    dateId: 'experience.card2.date',
+    responsibilitiesIds: [
+      'experience.card2.responsibility1',
+      'experience.card2.responsibility2',
+      'experience.card2.responsibility3'
     ]
   }
 ]

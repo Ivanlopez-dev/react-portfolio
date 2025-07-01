@@ -17,5 +17,18 @@
   "counter.projects": "Completed Projects",
   "counter.reviews": "Apps tested & reviewed",
   "experience.title": "Professional Work Experience",
-  "experience.sub": "💼 My Career Overview"
+  "experience.sub": "💼 A bit about my professional journey",
+  "experience.card1.title": "Jr Full-Stack Developer",
+  "experience.subtitle": "Responsibilities",
+  "experience.card1.date": "September 2022 - April 2024",
+  "experience.card1.review": "Ivan brought value and technical expertise to the team, significantly improving the performance of our Technical IT Support team.",
+  "experience.card1.responsibility1": "In charge of the technical support system, review errors and handle contact with customers.",
+  "experience.card1.responsibility2": "Debug, test and fix reported bugs if they are in my hand, Jira task management, GitHub releases and versioning.",
+  "experience.card1.responsibility3": "Used to create technical Documentation, API Restfull and Agile methodology.",
+  "experience.card2.title": "Waiter and Cook",
+  "experience.card2.date": "March 2018 - August 2022",
+  "experience.card2.review": "Ivan's work to Burger King's restaurant have been outstanding. He started working at the bar, taking orders and taking charge of the dining room and he ended up preparing the orders in the kitchen and teaching the new employees.",
+  "experience.card2.responsibility1": "Started attending the bar, taking and preparing orders to clients.",
+  "experience.card2.responsibility2": "Managing restaurant openings and closings.",
+  "experience.card2.responsibility3": "Prepare kitchen orders and train new employees."
 }

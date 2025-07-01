@@ -17,5 +17,18 @@
   "counter.projects": "Proyectos Completados",
   "counter.reviews": "Apps testedadas",
   "experience.title": "Experiencia Laboral",
-  "experience.sub": "💼 Mi trayectoria profesional"
+  "experience.sub": "💼 Mi trayectoria profesional",
+  "experience.card1.title": "Jr Full-Stack Developer",
+  "experience.subtitle": "Responsabilidades",
+  "experience.card1.date": "Septiembre 2022 - Abril 2024",
+  "experience.card1.review": "Ivan aportó valor y experiencia técnica al equipo, mejorando el rendimiento de nuestro equipo de Soporte Técnico un 11%",
+  "experience.card1.responsibility1": "Investigar errores, trazas, depurar, testear y arreglar bugs reportados si están en mi mano.",
+  "experience.card1.responsibility2": "Versionado y releases en GitHub, crear tareas en Jira.",
+  "experience.card1.responsibility3": "Acostumbrado a metodología Agile, API Restful y a crear Documentación técnica.",
+  "experience.card2.title": "Camarero/Cocinero",
+  "experience.card2.date": "Marzo 2018 - Agosto 2022",
+  "experience.card2.review": "Estamos orgullosos del trabajo de Iván. Empezó en la barra, tomando pedidos, encargándose del comedor. Y acabó preparando pedidos en cocina y enseñando a los nuevos empleados.",
+  "experience.card2.responsibility1": "Atender en barra y preparar pedidos que llegan de Cocina",
+  "experience.card2.responsibility2": "Turnos de Apertura y Cierre del local",
+  "experience.card2.responsibility3": "Preparar pedidos de Cocina y formar a nuevos empleados en distintas posiciones."
 }
