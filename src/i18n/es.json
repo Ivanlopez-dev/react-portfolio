@@ -12,5 +12,10 @@
   "hero.title.projects": "en Proyectos Reales",
   "hero.title.results": "entregando Resultados",
   "hero.description": "Hola! 🫡 Soy Iván, Web Developer y resido en España",
-  "hero.button": "Experiencia"
+  "hero.button": "Experiencia",
+  "counter.experience": "Años de Experiencia",
+  "counter.projects": "Proyectos Completados",
+  "counter.reviews": "Apps testedadas",
+  "experience.title": "Experiencia Laboral",
+  "experience.sub": "💼 Mi trayectoria profesional"
 }

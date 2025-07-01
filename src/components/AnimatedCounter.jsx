@@ -4,12 +4,14 @@ import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/all'
 
 import { counterItems } from '../constants'
+import { useIntl } from 'react-intl'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const AnimatedCounter = () => {
   const counterRef = useRef(null)
   const countersRef = useRef([])
+  const intl = useIntl()
 
   useGSAP(() => {
     countersRef.current.forEach((counter, index) => {
@@ -50,7 +52,7 @@ const AnimatedCounter = () => {
               0 {item.suffix}
             </div>
             <div className='text-white-50 text-lg flex justify-center'>
-              {item.label}
+              {intl.formatMessage({ id: item.labelId })}
             </div>
           </div>
         ))}
