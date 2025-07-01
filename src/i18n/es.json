@@ -3,5 +3,14 @@
   "nav.projects": "Proyectos",
   "nav.skills": "Habilidades",
   "nav.testimonials": "Feedback",
-  "nav.contact": "Contacto"
+  "nav.contact": "Contacto",
+  "hero.word.ideas": "Ideas",
+  "hero.word.concepts": "Conceptos",
+  "hero.word.designs": "Diseños",
+  "hero.word.code": "Código",
+  "hero.title.shaping": "Transformo",
+  "hero.title.projects": "en Proyectos Reales",
+  "hero.title.results": "entregando Resultados",
+  "hero.description": "Hola! 🫡 Soy Iván, Web Developer y resido en España",
+  "hero.button": "Experiencia"
 }

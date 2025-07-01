@@ -3,5 +3,14 @@
   "nav.projects": "Projects",
   "nav.skills": "Skills",
   "nav.testimonials": "Testimonials",
-  "nav.contact": "Contact me"
+  "nav.contact": "Contact me",
+  "hero.word.ideas": "Ideas",
+  "hero.word.concepts": "Concepts",
+  "hero.word.designs": "Designs",
+  "hero.word.code": "Code",
+  "hero.title.shaping": "Shaping",
+  "hero.title.projects": "into Real Projects",
+  "hero.title.results": "that Deliver Results",
+  "hero.description": "Hello! 🫡 I'm Ivan, a Developer based in Spain with a passion for code.",
+  "hero.button": "See my Work"
 }
