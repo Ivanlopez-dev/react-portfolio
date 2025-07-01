@@ -10,7 +10,7 @@ const messages = {
 
 const LanguageContext = React.createContext()
 
-export const LanguageProvider = ({ children }) => {
+const LanguageProvider = ({ children }) => {
   const [locale, setLocale] = useState('en')
 
   const switchLanguage = lang => setLocale(lang)
@@ -24,4 +24,5 @@ export const LanguageProvider = ({ children }) => {
   )
 }
 
-export default LanguageContext
+export { LanguageContext }
+export default LanguageProvider

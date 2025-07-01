@@ -1,5 +1,5 @@
 import { useContext, useState, useRef, useEffect } from 'react'
-import LanguageContext from '../i18n/LanguageProvider'
+import { LanguageContext } from '../i18n/LanguageProvider'
 
 const LanguageSwitcher = () => {
   const { locale, switchLanguage } = useContext(LanguageContext)
