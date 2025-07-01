@@ -3,8 +3,11 @@ import gsap from 'gsap'
 
 import TitleHeader from '../components/TitleHeader'
 import { techStackImgs } from '../constants'
+import { useIntl } from 'react-intl'
 
 const TechStack = () => {
+  const intl = useIntl()
+
   // Animate the tech cards in the skills section
   useGSAP(() => {
     // This animation is triggered when the user scrolls to the #skills wrapper
@@ -34,8 +37,8 @@ const TechStack = () => {
     <div id='skills' className='flex-center section-padding'>
       <div className='w-full h-full md:px-10 px-5'>
         <TitleHeader
-          title='How I Can Contribute & My Key Skills'
-          sub='🤝 What I Bring to the Table'
+          title={intl.formatMessage({ id: 'techstack.title' })}
+          sub={intl.formatMessage({ id: 'techstack.sub' })}
         />
         <div className='tech-grid mt-32 xl:px-0'>
           {/* Loop through the techStackIcons array and create a component for each item. 
