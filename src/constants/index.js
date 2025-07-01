@@ -70,18 +70,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: '/images/seo.png',
-    title: 'Quality Focus',
-    desc: 'Delivering high-quality results while maintaining attention to every detail.'
+    titleId: 'ability1.title',
+    descId: 'ability1.desc'
   },
   {
     imgPath: '/images/chat.png',
-    title: 'Reliable Communication',
-    desc: 'Keeping you updated at every step to ensure transparency and clarity.'
+    titleId: 'ability2.title',
+    descId: 'ability2.desc'
   },
   {
     imgPath: '/images/time.png',
-    title: 'On-Time Delivery',
-    desc: 'Making sure projects are completed on schedule, with quality & attention to detail.'
+    titleId: 'ability3.title',
+    descId: 'ability3.desc'
   }
 ]
 
