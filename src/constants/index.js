@@ -1,18 +1,18 @@
 const navLinks = [
   {
-    name: 'Experience',
+    id: 'nav.experience',
     link: '#experience'
   },
   {
-    name: 'Projects',
+    id: 'nav.projects',
     link: '#projects'
   },
   {
-    name: 'Skills',
+    id: 'nav.skills',
     link: '#skills'
   },
   {
-    name: 'Testimonials',
+    id: 'nav.testimonials',
     link: '#testimonials'
   }
 ]
