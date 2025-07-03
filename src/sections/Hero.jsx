@@ -6,6 +6,7 @@ import { socialImgs, words } from '../constants'
 import AnimatedCounter from '../components/AnimatedCounter'
 import Button from '../components/Button'
 import HeroExperience from '../components/HeroModels/HeroExperience'
+import SecondaryButton from '../components/SecondaryButton'
 
 const Hero = () => {
   const intl = useIntl()
@@ -89,12 +90,18 @@ const Hero = () => {
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
               {intl.formatMessage({ id: 'hero.description' })}
             </p>
-
-            <Button
-              className='md:w-80 md:h-16 w-60 h-12'
-              id='button'
-              text={intl.formatMessage({ id: 'hero.button' })}
-            />
+            <div className='flex items-center gap-4'>
+              <Button
+                className='md:w-80 md:h-16 w-60 h-12'
+                id='button'
+                text={intl.formatMessage({ id: 'hero.button' })}
+              />
+              <SecondaryButton
+                className='md:w-80 md:h-16 w-60 h-12'
+                id='cv-button'
+                text={intl.formatMessage({ id: 'hero.secondarybutton' })}
+              />
+            </div>
           </div>
         </header>
 
