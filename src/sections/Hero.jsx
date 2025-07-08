@@ -41,7 +41,7 @@ const Hero = () => {
             <img
               src='https://avatars.githubusercontent.com/u/6099886?v=4'
               alt='Ivan Lopez avatar image'
-              className='size-20 md:size-30 lg:size-50 rounded-lg mb-3'
+              className='size-40 md:size-40 lg:size-60 rounded-lg mb-3'
             />
             <div className='flex gap-4'>
               {socialImgs.map(img => (
