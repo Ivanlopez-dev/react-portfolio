@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react'
 import { useIntl } from 'react-intl'
 import gsap from 'gsap'
 
-import { socialImgs, words } from '../constants'
+import { words } from '../constants'
 import AnimatedCounter from '../components/AnimatedCounter'
 import Button from '../components/Button'
 import HeroExperience from '../components/HeroModels/HeroExperience'
@@ -37,25 +37,6 @@ const Hero = () => {
       <div className='hero-layout'>
         {/* LEFT: HERO CONTENT */}
         <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5 gap-10'>
-          <div className='flex flex-col'>
-            <img
-              src='https://avatars.githubusercontent.com/u/6099886?v=4'
-              alt='Ivan Lopez avatar image'
-              className='size-40 md:size-40 lg:size-60 rounded-lg mb-3'
-            />
-            <div className='flex gap-4'>
-              {socialImgs.map(img => (
-                <a
-                  href={img.url}
-                  target='_blank'
-                  key={img.url}
-                  className='flex icon size-6 transition-all duration-300 hover:scale-115'
-                >
-                  <img src={img.imgPath} />
-                </a>
-              ))}
-            </div>
-          </div>
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
