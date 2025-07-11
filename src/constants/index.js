@@ -143,8 +143,8 @@ const expCards = [
   },
   {
     reviewId: 'experience.card2.review',
-    imgPath: '/images/logo2.webp',
-    logoPath: '/images/logo2.webp',
+    imgPath: '/images/logo2.png',
+    logoPath: '/images/logo2.png',
     titleId: 'experience.card2.title',
     dateId: 'experience.card2.date',
     responsibilitiesIds: [
