@@ -1,8 +1,9 @@
 const Button = ({ text, className }) => {
   return (
     <a
-      href='https://ivanlorocv.vercel.app/'
+      href='/files/cv.pdf'
       target='_blank'
+      rel='noopener noreferrer'
       className={`${className ?? ''} cta-wrapper`}
     >
       <div className='secondary-cta-button group'>
