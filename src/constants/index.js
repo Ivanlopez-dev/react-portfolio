@@ -168,46 +168,52 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: 'Esther Howard',
-    mentions: '@estherhoward',
-    review:
-      'I can’t say enough good things about Ivan. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    imgPath: '/images/client1.png'
+    name: 'Alfonso Sánchez',
+    company: 'Deliverea Chief Operating Officer',
+    mentions: '@alfonsosanchez',
+    reviewId: 'testimonials.review.1',
+    imgPath: '/images/testimonials-pic3.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/alfa-sanchez/'
   },
   {
-    name: 'Wade Warren',
-    mentions: '@wadewarren',
-    review:
-      'Working with Ivan was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    imgPath: '/images/client3.png'
+    name: 'Deneidy Sanchez',
+    company: 'Deliverea Project Manager',
+    mentions: '@deneidysanchez',
+    reviewId: 'testimonials.review.2',
+    imgPath: '/images/testimonials-pic2.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/deneidy-s-a8586a236/'
   },
   {
-    name: 'Guy Hawkins',
-    mentions: '@guyhawkins',
-    review:
-      "Collaborating with Ivan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ivan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ivan is the ideal partner.",
-    imgPath: '/images/client2.png'
+    name: 'Lua Varela',
+    company: 'Deliverea IT Support',
+    mentions: '@luavarela',
+    reviewId: 'testimonials.review.3',
+    imgPath: '/images/testimonials-pic1.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/lua-varela/'
   },
   {
-    name: 'Marvin McKinney',
-    mentions: '@marvinmckinney',
-    review:
-      'Ivan was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.',
-    imgPath: '/images/client5.png'
+    name: 'Albert Romera',
+    company: 'Deliverea Senior Developer',
+    mentions: '@albertromera',
+    reviewId: 'testimonials.review.4',
+    imgPath: '/images/testimonials-pic4.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/albertromera/'
   },
   {
-    name: 'Floyd Miles',
-    mentions: '@floydmiles',
-    review:
-      'Ivan’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!',
-    imgPath: '/images/client4.png'
+    name: 'Marta Lazkano',
+    company: 'Minino Malo Product Owner',
+    mentions: '@martalazkano',
+    reviewId: 'testimonials.review.5',
+    imgPath: '/images/logo2.png',
+    linkedinUrl: 'https://www.linkedin.com/in/'
   },
   {
-    name: 'Albert Flores',
-    mentions: '@albertflores',
-    review:
-      'Ivan was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.',
-    imgPath: '/images/client6.png'
+    name: 'Mario',
+    company: 'Burger King Cooker',
+    mentions: '@mario',
+    reviewId: 'testimonials.review.6',
+    imgPath: '/images/client4.png',
+    linkedinUrl: 'https://www.linkedin.com/in/'
   }
 ]
 
