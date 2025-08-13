@@ -29,7 +29,7 @@ const words = [
 ]
 
 const counterItems = [
-  { value: 2, suffix: '+', labelId: 'counter.experience' },
+  { value: 3, suffix: '+', labelId: 'counter.experience' },
   { value: 24, suffix: '+', labelId: 'counter.projects' },
   { value: 100, suffix: '%', labelId: 'counter.reviews' }
 ]

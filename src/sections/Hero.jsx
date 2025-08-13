@@ -67,10 +67,13 @@ const Hero = () => {
               </h1>
               <h1>{intl.formatMessage({ id: 'hero.title.projects' })}</h1>
             </div>
+            <div className="max-w-xl">
+              <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
+                {intl.formatMessage({ id: 'hero.description' })}
+              </p>
 
-            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-              {intl.formatMessage({ id: 'hero.description' })}
-            </p>
+            </div>
+
             <div className='flex items-center gap-4'>
               <Button
                 className='md:w-80 md:h-16 w-60 h-12'
